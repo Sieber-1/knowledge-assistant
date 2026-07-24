@@ -1,0 +1,186 @@
+{
+  "_comment": "Ground Truth. answerable=false => System MUSS ablehnen. expected_text ist der Beleg-Satz, der im abgerufenen Chunk stehen muss; ohne ihn misst man nur die Datei-Zuordnung, was bei kleinen Korpora trivial ist.",
+  "questions": [
+    {
+      "question": "Wo findet die Photosynthese in der Zelle statt?",
+      "expected_source": "photosynthese_grundlagen.pdf",
+      "expected_page": 1,
+      "expected_text": "Sie findet in den Chloroplasten statt"
+    },
+    {
+      "question": "Welches Pigment ist das zentrale Pigment der Photosynthese?",
+      "expected_source": "photosynthese_grundlagen.pdf",
+      "expected_page": 1,
+      "expected_text": "Das zentrale Pigment ist Chlorophyll a"
+    },
+    {
+      "question": "Bei welcher Wellenlaenge absorbiert Chlorophyll a im roten Bereich?",
+      "expected_source": "photosynthese_grundlagen.pdf",
+      "expected_page": 1,
+      "expected_text": "im roten Bereich um 662 Nanometer"
+    },
+    {
+      "question": "Warum erscheinen Blaetter gruen?",
+      "expected_source": "photosynthese_grundlagen.pdf",
+      "expected_page": 1,
+      "expected_text": "weshalb Blaetter gruen erscheinen"
+    },
+    {
+      "question": "In welche zwei Phasen laesst sich die Photosynthese unterteilen?",
+      "expected_source": "photosynthese_grundlagen.pdf",
+      "expected_page": 1,
+      "expected_text": "die Lichtreaktion und die Dunkelreaktion"
+    },
+    {
+      "question": "Was entsteht bei der Spaltung von Wasser in der Lichtreaktion?",
+      "expected_source": "photosynthese_grundlagen.pdf",
+      "expected_page": 2,
+      "expected_text": "Dabei entsteht Sauerstoff als Nebenprodukt"
+    },
+    {
+      "question": "Wie viele Elektronen werden pro gespaltenem Wassermolekuel frei?",
+      "expected_source": "photosynthese_grundlagen.pdf",
+      "expected_page": 2,
+      "expected_text": "werden zwei Elektronen frei"
+    },
+    {
+      "question": "Welche Energietraeger werden in der Lichtreaktion gebildet?",
+      "expected_source": "photosynthese_grundlagen.pdf",
+      "expected_page": 2,
+      "expected_text": "Die Energietraeger ATP und NADPH werden in dieser Phase gebildet"
+    },
+    {
+      "question": "Bei welcher Temperatur arbeiten C3-Pflanzen optimal?",
+      "expected_source": "photosynthese_grundlagen.pdf",
+      "expected_page": 2,
+      "expected_text": "zwischen 20 und 30 Grad Celsius"
+    },
+    {
+      "question": "Wie hoch ist der Wirkungsgrad der Photosynthese unter natuerlichen Bedingungen?",
+      "expected_source": "photosynthese_grundlagen.pdf",
+      "expected_page": 2,
+      "expected_text": "bei etwa 1 bis 2 Prozent der eingestrahlten Sonnenenergie"
+    },
+    {
+      "question": "Wo laeuft der Calvin-Zyklus ab?",
+      "expected_source": "calvin_zyklus.pdf",
+      "expected_page": 1,
+      "expected_text": "laeuft im Stroma der Chloroplasten ab"
+    },
+    {
+      "question": "Was ist das Schluesselenzym des Calvin-Zyklus?",
+      "expected_source": "calvin_zyklus.pdf",
+      "expected_page": 1,
+      "expected_text": "Das Schluesselenzym des Zyklus ist RuBisCO"
+    },
+    {
+      "question": "Nach wem wurde der Calvin-Zyklus benannt?",
+      "expected_source": "calvin_zyklus.pdf",
+      "expected_page": 1,
+      "expected_text": "nach Melvin Calvin benannt"
+    },
+    {
+      "question": "Wann erhielt Melvin Calvin den Nobelpreis?",
+      "expected_source": "calvin_zyklus.pdf",
+      "expected_page": 1,
+      "expected_text": "1961 den Nobelpreis fuer Chemie erhielt"
+    },
+    {
+      "question": "Woran bindet RuBisCO das Kohlendioxid?",
+      "expected_source": "calvin_zyklus.pdf",
+      "expected_page": 1,
+      "expected_text": "an Ribulose-1,5-bisphosphat bindet"
+    },
+    {
+      "question": "Wie viele ATP werden zur Fixierung eines CO2-Molekuels benoetigt?",
+      "expected_source": "calvin_zyklus.pdf",
+      "expected_page": 1,
+      "expected_text": "drei Molekuele ATP und zwei Molekuele NADPH benoetigt"
+    },
+    {
+      "question": "Wie oft muss der Zyklus fuer ein Molekuel Glucose durchlaufen werden?",
+      "expected_source": "calvin_zyklus.pdf",
+      "expected_page": 1,
+      "expected_text": "muss der Zyklus sechsmal durchlaufen werden"
+    },
+    {
+      "question": "Was ist Photorespiration?",
+      "expected_source": "calvin_zyklus.pdf",
+      "expected_page": 2,
+      "expected_text": "Dieser Vorgang heisst Photorespiration"
+    },
+    {
+      "question": "Welche Schwaeche hat RuBisCO?",
+      "expected_source": "calvin_zyklus.pdf",
+      "expected_page": 2,
+      "expected_text": "es kann statt Kohlendioxid auch Sauerstoff binden"
+    },
+    {
+      "question": "Welche Pflanzen umgehen das Problem der Photorespiration?",
+      "expected_source": "calvin_zyklus.pdf",
+      "expected_page": 2,
+      "expected_text": "C4-Pflanzen wie Mais und Zuckerrohr"
+    },
+    {
+      "question": "Wie reichern C4-Pflanzen Kohlendioxid an?",
+      "expected_source": "calvin_zyklus.pdf",
+      "expected_page": 2,
+      "expected_text": "Sie reichern Kohlendioxid vor der Fixierung an"
+    },
+    {
+      "question": "Warum ist Chunking im RAG-Kontext ueberhaupt noetig?",
+      "expected_source": "chunking_strategien.md",
+      "expected_text": "Embedding-Modelle haben ein Kontextlimit"
+    },
+    {
+      "question": "Was ist der Nachteil einer festen Chunk-Groesse?",
+      "expected_source": "chunking_strategien.md",
+      "expected_text": "zerstoert aber Saetze und Absaetze"
+    },
+    {
+      "question": "Warum braucht man Ueberlappung zwischen Chunks?",
+      "expected_source": "chunking_strategien.md",
+      "expected_text": "in keinem Chunk vollstaendig enthalten sein"
+    },
+    {
+      "question": "Wie viel Prozent Ueberlappung sind ueblich?",
+      "expected_source": "chunking_strategien.md",
+      "expected_text": "Ueblich sind 10 bis 20 Prozent"
+    },
+    {
+      "question": "Was ist der Nachteil sehr grosser Chunks?",
+      "expected_source": "chunking_strategien.md",
+      "expected_text": "verwaessern aber das Embedding"
+    },
+    {
+      "question": "Welcher Startwert fuer die Chunk-Groesse wird genannt?",
+      "expected_source": "chunking_strategien.md",
+      "expected_text": "bei etwa 800 Zeichen mit 150 Zeichen Ueberlappung"
+    },
+    {
+      "question": "Wie funktioniert ein Dieselmotor?",
+      "answerable": false,
+      "note": "Thema kommt im Korpus nicht vor"
+    },
+    {
+      "question": "Welches Team gewann 1998 die Fussball-Weltmeisterschaft?",
+      "answerable": false,
+      "note": "Thema kommt im Korpus nicht vor"
+    },
+    {
+      "question": "Wie hoch ist der Eiffelturm?",
+      "answerable": false,
+      "note": "Thema kommt im Korpus nicht vor"
+    },
+    {
+      "question": "Welcher Duenger eignet sich am besten fuer Tomaten?",
+      "answerable": false,
+      "note": "Nachbarthema Pflanzen, aber nicht im Korpus - prueft, ob thematische Naehe zu Halluzination fuehrt"
+    },
+    {
+      "question": "Wie viel ATP verbraucht der Krebszyklus pro Umlauf?",
+      "answerable": false,
+      "note": "Nachbarthema Biochemie, nicht im Korpus - haerterer Fall"
+    }
+  ]
+}
