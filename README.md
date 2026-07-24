@@ -1,5 +1,3 @@
-# knowledge-assistant
-
 # Knowledge Assistant (RAG)
 
 Semantische Dokumentensuche ueber PDFs, TXT und Markdown. Hybrid-Retrieval
